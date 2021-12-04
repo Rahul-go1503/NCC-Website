@@ -156,6 +156,57 @@
 }
 
 
+/* Officers section */
+.ncc-bg-cadet{
+  background: #053D4D;
+  /* text-align: center; */
+}
+.ncc-div-fs{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.cadets{
+  margin-top: 130px;
+}
+.cadets .row .col img{
+  width: 240px;
+  height: 230px;
+}
+.cadets .row .col div{
+  width: 240px;
+}
+.teams .row .col img{
+  width: 240px;
+  height: 230px;
+}
+.teams .row .col div{
+  width: 240px;
+}
+
+@media only screen and (min-width:1000px){
+  .row1{
+    margin:0px 158px;
+  }
+  .row2{
+    margin:0px -90px;
+  }
+}
+@media only screen and (max-width:768px){
+  .cadets .row .col img{
+    width: 261px;
+    height: 230px;
+  }
+  .cadets .row .col div{
+    width: 261px;
+  }
+  .teams .row .col img{
+    width: 261px;
+    height: 230px;
+  }
+  .teams .row .col div{
+    width: 261px;
+  }
+}
 /* Team and alumns section */
 
 .heading {
