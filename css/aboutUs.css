@@ -1,0 +1,336 @@
+.about-heading {
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+}
+.about-images > img {
+  width: 250px;
+}
+.ncc-about {
+  text-align: justify;
+}
+.about-heading2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid black;
+  line-height: 0.1em;
+  margin: 3rem auto;
+}
+
+.about-heading2 span {
+  background: #f3f9ff;
+  padding: 0 10px;
+  font-weight: 700;
+}
+.activity {
+  border-radius: 10px;
+  background-color: #dee8f6;
+  margin: 1rem auto;
+}
+
+.activity > img {
+  height: 200px;
+  width: fit-content;
+}
+
+.activity-content {
+  width: 78%;
+  margin-right: 0.5rem;
+}
+.activity-heading {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.activity-description {
+  width: 95%;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+.carousel-control-prev > i,
+.carousel-control-next > i {
+  color: black;
+  font-size: 3rem;
+}
+.arrow > button {
+  margin: 0px -3rem;
+}
+.carousel-indicators [data-bs-target]:not(.active) {
+  opacity: 0.25;
+}
+.carousel-control-prev:not(.mobile) {
+  justify-content: flex-start !important;
+}
+.carousel-control-next:not(.mobile) {
+  justify-content: flex-end !important;
+}
+#activityCarousel2,
+#nccImageCarousel,
+.aboutheading2 {
+  display: none;
+}
+#nccImageCarousel > .carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+#nccImageCarousel > .carousel-indicators {
+  margin-bottom: 0px;
+}
+#nccImageCarousel > .carousel-inner > .carousel-item {
+  text-align: center;
+}
+#nccImageCarousel > .carousel-inner > .carousel-item > img {
+  width: 220px;
+}
+@media (max-width: 1030px) {
+  .arrow > button {
+    margin: 0px -2rem;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .arrow > button {
+    margin: 0px -3rem;
+  }
+}
+@media (min-width: 768px) {
+  .about-images > img {
+    width: 210px;
+  }
+  
+  .carousel-control-prev > i,
+  .carousel-control-next > i {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 760px) {
+  #activityCarousel,
+  .about-images,
+  .about-heading:not(.aboutheading2) {
+    display: none !important;
+  }
+  #activityCarousel2,
+  #nccImageCarousel,
+  .aboutheading2 {
+    display: block;
+  }
+  .activity {
+    background-color: transparent;
+  }
+  .activity-content {
+    background-color: #dee8f6;
+    border-radius: 10px;
+  }
+  .activity > img {
+    width: 250px !important;
+    height: 150px !important;
+    margin-bottom: 1rem;
+  }
+  .arrow > button {
+    margin: 0px 0rem;
+  }
+  .about-heading2 {
+    margin-bottom: 1.5rem;
+  }
+  .activity-heading {
+    width: 80%;
+    text-align: center;
+  }
+  .carousel-control-prev > i,
+  .carousel-control-next > i {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .carousel-control-prev.mobile {
+    justify-content: flex-start !important;
+  }
+  .carousel-control-next.mobile {
+    justify-content: flex-end !important;
+  }
+}
+
+
+/* Team and alumns section */
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0em;
+  font-size: 40px;
+  line-height: 47px;
+  margin: 0;
+}
+.line {
+  background-color: #053d4d;
+  width: 30%;
+  height: 4px;
+}
+.nav-tabs .nav-link {
+  font-family: Raleway;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .show > .nav-link {
+  color: white;
+  background-color: #053d4d;
+}
+.nav-tabs li button {
+  text-align: center;
+}
+.tab-content {
+  display: block;
+}
+.section-1,
+.section-2 {
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+.section-1 p,
+.section-2 p{
+  margin-bottom: 4px;
+}
+.section-1 .item {
+  text-align: center;
+  background-color: white;
+  border: 3px solid #222588;
+  border-radius: 10px;
+  margin: 8px 0px;
+  padding: 10px;
+}
+.section-2 .item {
+  text-align: center;
+  background-color: white;
+  border: 3px solid #222588;
+  padding: 8px;
+  margin: 8px 0px;
+  border-radius: 10px;
+}
+.section-1 .name {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.section-1 .designation {
+  font-size: 20px;
+}
+.section-1 .contact {
+  font-family: Lato;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+@media only screen and (max-width: 1024px) {
+  .heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .line {
+    width: 25%;
+    height: 3px;
+  }
+  .nav-tabs .nav-link {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left !important;
+  }
+  .section-1 .name {
+    font-size: 20px;
+  }
+  .section-1 .designation {
+    font-size: 16px;
+  }
+  .section-1 .contact{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .nav-tabs {
+    flex-direction: column !important;
+  }
+  .heading {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  
+  .line {
+    width: 20%;
+    height: 2px;
+  }
+  .nav-tabs .nav-link {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left !important;
+  }
+  .section-1 .item {
+    width: 80%;
+    margin: 8px 0px;
+  }
+  .section-2 .item {
+    margin: 8px auto;
+  }
+  .section-1 .name {
+    font-size: 20px;
+  }
+  .section-1 .designation {
+    font-size: 16px;
+  }
+  .section-1 .contact{
+    font-size: 18px;
+  }
+  .section-2 .name {
+    font-size: 16px;
+  }
+  .section-2 .designation {
+    font-size: 12px;
+  }
+  .section-2 .contact{
+    font-size: 14px;
+  }
+  .tab-content {
+    display: none;
+  }
+}
+@media only screen and (max-width: 360px){
+  .section-1 .item {
+    width: 100%;
+    margin: 8px 0px;
+  }
+  .section-1 .name {
+    font-size: 16px;
+  }
+  .section-1 .designation {
+    font-size: 12px;
+  }
+  .section-1 .contact{
+    font-size: 14px;
+  }
+  .section-2 .name {
+    font-size: 16px;
+  }
+  .section-2 .designation {
+    font-size: 12px;
+  }
+  .section-2 .contact{
+    font-size: 14px;
+  }
+}

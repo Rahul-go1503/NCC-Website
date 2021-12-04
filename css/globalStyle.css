@@ -1,0 +1,21 @@
+body{
+    background-color: #F3F9FF;
+}
+.ncc-bg-copyright{
+    background-color: #363131;
+}
+.ncc-white{
+    color: #FFFDFD
+}
+.ncc-black{
+    color: black
+}
+.ncc-bg-blue{
+    background-color:rgb(33, 36, 135, 0.95);
+}
+.ncc-navBar{
+    width: 100%;
+}
+.underline-white{
+    border-bottom: 2px solid white;
+}
