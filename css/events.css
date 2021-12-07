@@ -217,7 +217,7 @@
   transition: transform 0.5s;
 }
 .carousel-container .card-container {
-  width: 34%;
+  width: 33%;
   flex-shrink: 0;
   height: 250px;
   padding-right: 15px;
