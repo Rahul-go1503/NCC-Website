@@ -81,6 +81,35 @@
   width: 100%;
   overflow-x: scroll;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 .nav button {
   border: 0;
   background-color: #f3f9ff;
@@ -122,6 +151,78 @@
   padding: 10px;
   box-sizing: border-box;
 }
+@media (max-width: 760px){
+  #date {
+    margin-top: 5px;
+    padding-left: 5%;
+    display: inline-flex;
+    position: relative;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 2.3vw;
+    color: #fff;
+  }
+  #place {
+    margin-top: 5px;
+    padding-left: 10%;
+    padding-right: 6%;
+    display: inline-flex;
+    position: relative;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 2.3vw;
+    color: #fff;
+  }
+  #last_date {
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 2.3vw;
+    color: #fff;
+  }
+}
+@media (max-width: 560px){
+  .block {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 3px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #222588;
+    border-radius: 25px;
+    width: 70%;
+  }
+  #date {
+    margin: 0%;
+    padding: 0px;
+    padding-left: 5%;
+    display: inline-flex;
+    position: relative;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 3.4vw;
+    color: #fff;
+  }
+  #place {
+    margin: 0%;
+    padding: 0px;
+    padding-left: 5%;
+    display: inline-flex;
+    position: relative;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 3.4vw;
+    color: #fff;
+  }
+  #last_date {
+    margin: 0%;
+    padding: 3px;
+    padding-left: 5%;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 3vw;
+    color: #fff;
+  }
+  
+}
 @media (min-width: 720px) {
   .carousel {
     margin-left: 15%;
@@ -151,7 +252,15 @@
   padding-right: 15px;
   box-sizing: border-box;
 }
-
+@media (max-width:770px){
+  .carousel-container .card-container {
+    width: 56%;
+    flex-shrink: 0;
+    height: 250px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+}
 .carousel-container .card-container .card {
   width: 100%;
   height: 100%;
