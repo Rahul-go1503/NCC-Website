@@ -69,7 +69,7 @@ body{
   text-align: justify;
   color: #1b1b1b;
 }
-@media (max-width: 769px) {
+@media (max-width: 970px) {
   .Our_AIM {
     padding-right: 0px;
   }
