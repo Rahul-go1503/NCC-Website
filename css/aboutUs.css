@@ -1,13 +1,15 @@
 .about-heading {
   font-weight: bold;
   text-align: center;
-  margin: 1rem;
+  margin: 2.5rem;
+  font-size: 40px;
 }
 .about-images > img {
   width: 250px;
 }
 .ncc-about {
   text-align: justify;
+  font-size: 18px;
 }
 .about-heading2 {
   width: 100%;
@@ -16,7 +18,6 @@
   line-height: 0.1em;
   margin: 3rem auto;
 }
-
 .about-heading2 span {
   background: #f3f9ff;
   padding: 0 10px;
@@ -39,6 +40,7 @@
 }
 .activity-heading {
   text-align: center;
+  font-size: 30px;
   border-bottom: 1px solid black;
 }
 .activity-description {
@@ -166,7 +168,8 @@
   font-family: 'Open Sans', sans-serif !important;
 }
 .cadets{
-  margin-top: 130px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .cadets .row .col img{
   width: 240px;
@@ -212,13 +215,10 @@
 .heading {
   text-align: center;
   text-transform: uppercase;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0em;
   font-size: 40px;
-  line-height: 47px;
-  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin: 2rem;
 }
 .line {
   background-color: #053d4d;
@@ -291,7 +291,7 @@
 }
 @media only screen and (max-width: 1024px) {
   .heading {
-    font-size: 30px;
+    font-size:35px;
     line-height: 35px;
   }
   .line {
@@ -318,9 +318,10 @@
     flex-direction: column !important;
   }
   .heading {
+    margin-bottom: 20px;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 40px;
+    line-height: 40px;
   }
   
   .line {
