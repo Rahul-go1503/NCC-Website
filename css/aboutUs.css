@@ -318,15 +318,15 @@
     flex-direction: column !important;
   }
   .heading {
-    margin-bottom: 20px;
+    margin-bottom: 36px;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 40px;
   }
   
   .line {
     width: 20%;
-    height: 2px;
+    height: 4px;
   }
   .nav-tabs .nav-link {
     font-size: 14px;

@@ -47,17 +47,14 @@
 .heading {
   text-align: center;
   text-transform: uppercase;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 600;
   letter-spacing: 0em;
-  font-size: 2em;
-  line-height: 47px;
-  margin-top: 30px;
+  margin: 2rem;
 }
 .line {
   background-color: #053d4d;
-  width: 20%;
+  width: 30%;
   height: 4px;
 }
 .recom {
@@ -151,6 +148,16 @@
   padding: 10px;
   box-sizing: border-box;
 }
+@media only screen and (max-width: 1024px) {
+  .heading {
+    font-size:35px;
+    line-height: 35px;
+  }
+  .line {
+    width: 25%;
+    height: 3px;
+  }
+}
 @media (max-width: 760px){
   #date {
     margin-top: 5px;
@@ -177,6 +184,17 @@
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 2.3vw;
     color: #fff;
+  }
+  .heading {
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 40px;
+  }
+  
+  .line {
+    width: 20%;
+    height: 4px;
   }
 }
 @media (max-width: 560px){
