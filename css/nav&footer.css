@@ -26,27 +26,24 @@
 }
 .navLinks {
   background: rgba(22, 25, 130, 0.949);
+  transition: 1s;
 }
 .navLinks li a:link {
   font-family: Raleway;
   color: white !important;
   font-size: 20px;
   margin-bottom: 2px;
-  /* border-radius: 10px; */
-  border-bottom: transparent;
+  border-bottom: white 2.5px;
+  transition: 0.3s;
 }
-/* Can Add transition on Hover  */
 .navLinks li a:hover,
 .navLinks li a.active {
-  /* color: black !important; */
-  /* background-color: #fff; */
-  /* border-radius: 10px; */
   border-bottom: white 2.5px solid;
   padding-bottom: 1.5px;
 }
 .navLinks li a:active {
-  border-bottom: white 1px solid;
-  padding-bottom: 1px;
+  border-bottom: white 2.5px solid;
+  padding-bottom: 1.5px;
 }
 #title_footer {
   border-bottom: 2px solid;
