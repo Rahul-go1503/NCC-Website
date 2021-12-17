@@ -41,6 +41,7 @@
   overflow: hidden;
 }
 .carousel-container .track {
+  width: 100%;
   display: inline-flex;
   transition: transform 0.5s;
 }
@@ -103,4 +104,19 @@
   flex-grow: 0;
   padding: 10px;
   box-sizing: border-box;
+}
+@media only screen and (max-width: 992px){
+  .carousel-container .card-container {
+    width: 33.33%;
+  }
+}
+@media only screen and (max-width: 720px){
+  .carousel-container .card-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 320px){
+  .carousel-container .card-container {
+    width: 100%;
+  }
 }

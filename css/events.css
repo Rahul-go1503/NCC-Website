@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: #f3f9ff;
 }
 .block {
@@ -107,47 +107,7 @@
   visibility: visible;
   opacity: 1;
 }
-.nav button {
-  border: 0;
-  background-color: #f3f9ff;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-.nav button i {
-  font-size: 30px;
-}
-.nav .prev {
-  left: -40px;
-  display: none;
-}
-.nav .prev.show {
-  display: block;
-}
-.nav .next {
-  right: -40px;
-}
-.nav .next.hide {
-  display: none;
-}
-.card > * {
-  flex: 1;
-}
-.card .img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-}
-.card .info {
-  flex-basis: 40px;
-  background: #222588;
-  color: #c4c4c4;
-  flex-grow: 0;
-  padding: 10px;
-  box-sizing: border-box;
-}
+
 @media only screen and (max-width: 1024px) {
   .heading {
     font-size:35px;
@@ -260,6 +220,7 @@
   overflow: hidden;
 }
 .carousel-container .track {
+  width: 100%;
   display: inline-flex;
   transition: transform 0.5s;
 }
@@ -288,11 +249,68 @@
   display: flex;
   flex-direction: column;
 }
+.nav button {
+  border: 0;
+  background-color: #f3f9ff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.nav button i {
+  font-size: 30px;
+}
+.nav .prev {
+  left: -40px;
+  display: none;
+}
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -40px;
+}
+.nav .next.hide {
+  display: none;
+}
+.card > * {
+  flex: 1;
+}
+.card .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.card .info {
+  flex-basis: 40px;
+  background: #222588;
+  color: #c4c4c4;
+  flex-grow: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 992px){
+  .carousel-container .card-container {
+    width: 33.33%;
+  }
+}
+@media only screen and (max-width: 720px){
+  .carousel-container .card-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 320px){
+  .carousel-container .card-container {
+    width: 100%;
+  }
+}
+
 /* img:hover {
   background-color: #053d4d;
 } */
 
-/* Modal css */
+/*-----------Modal css-------- */
 .modal-event {
   background: #222588;
   color: white;
