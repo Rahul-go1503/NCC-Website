@@ -19,9 +19,9 @@ next.addEventListener('click', () => {
   index++;
   prev.classList.add('show');
   track.style.transform = `translateX(-${index*cardWidth}px)`;
-  console.log((cards.length*cardWidth - (index * cardWidth)));
+  // console.log((cards.length*cardWidth - (index * cardWidth)));
   
-  if ((cards.length*cardWidth - (index * cardWidth)) <= carouselWidth) {
+  if ((cards.length*cardWidth - ((index+1) * cardWidth)) < carouselWidth) {
     next.classList.add('hide');
   }
 })
