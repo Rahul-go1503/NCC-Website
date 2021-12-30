@@ -239,7 +239,7 @@
             <div class="pb-1">
               Contact Us:
             </div>
-            <i class="fa fa-plus" onclick="footer('contact_content')"></i>
+            <i class="fa fa-plus" onclick="footer('contact_content',this)"></i>
           </div>
           <div id="contact_content">
             <div class="d-flex align-items-center pt-3">
@@ -268,7 +268,7 @@
             <div class="pb-1">
               Address:
             </div>
-            <i class="fa fa-plus" onclick="footer('address_content')"></i>
+            <i class="fa fa-plus" onclick="footer('address_content',this)"></i>
           </div>
           <div id="address_content">
             <div class="d-flex align-items-center pt-3">
@@ -283,7 +283,7 @@
             <div class="pb-1">
               Webiste:
             </div>
-            <i class="fa fa-plus" onclick="footer('website_content')"></i>
+            <i class="fa fa-plus" onclick="footer('website_content',this)"></i>
           </div>
           <div id="website_content">
             <div class="d-flex align-items-center pt-3">
@@ -325,15 +325,14 @@
 
   <script>
 
-    const footer = (id) => {
-      if (document.getElementById(id).style.display == "block") {
-        document.getElementById(id).style.display = "none"
-      }
-      else {
-        document.getElementById(id).style.display = "block"
-      }
-    };
-
+    const footer = (id,icon) => {
+      var element = document.getElementById(id);
+      
+      if(icon.classList.contains("fa-plus")){
+        icon.classList.replace("fa-plus","fa-minus");
+      }else icon.classList.replace("fa-minus","fa-plus");
+      element.classList.toggle(id+"_0");
+    }
 
     const toggle = document.querySelector(".toggle-icon");
     const box = document.querySelector(".box");
