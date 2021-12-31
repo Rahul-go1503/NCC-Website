@@ -86,27 +86,27 @@
     <!-- The carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">       
-        <img src="./images/blogs.png" alt="events" class="d-block" style="width:100%" class="imga" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./images/blogs.png" alt="events" class="d-block" style="width:100%" class="imga" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeCarouselInterval()">
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body p-0">
-        <div class="container-fluid p-0">
-          <div class="row d-flex modal-box m-0">
-            <div class="col-6 px-0 align-self-center">
-              <img src="./images/qrcode_docs.google.com.png" alt="events" class="d-block" style="width:100%" class="imga" >
-            </div>
-            <div class="col-6 modal-event">
-              <p class="text-center event-name">Event Name</p>
-              <p class="text-center event-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aliquam et amet necessitatibus laudantium unde veritatis possimus. Voluptatem, odio alias consequuntur odit ducimus totam sapiente, tenetur harum impedit maiores ipsum, non facere cupiditate vitae! Corrupti, sapiente dolorem quas provident, explicabo officiis voluptatum qui ullam debitis distinctio, nihil saepe tenetur esse.</p>
-              <p class="event-details">Date & Time - 05-10-2021</p>
-              <p class="event-details">Venue - MAC</p>
-              <p class="event-details">Last date of registration - 04-10-21</p>
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <div class="container-fluid p-0">
+                <div class="row d-flex modal-box m-0">
+                  <div class="col-6 px-0 align-self-center">
+                    <img src="./images/qrcode_docs.google.com.png" alt="events" class="d-block" style="width:100%" class="imga" >
+                  </div>
+                  <div class="col-6 modal-event">
+                    <p class="text-center event-name">Event Name</p>
+                    <p class="text-center event-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aliquam et amet necessitatibus laudantium unde veritatis possimus. Voluptatem, odio alias consequuntur odit ducimus totam sapiente, tenetur harum impedit maiores ipsum, non facere cupiditate vitae! Corrupti, sapiente dolorem quas provident, explicabo officiis voluptatum qui ullam debitis distinctio, nihil saepe tenetur esse.</p>
+                    <p class="event-details">Date & Time - 05-10-2021</p>
+                    <p class="event-details">Venue - MAC</p>
+                    <p class="event-details">Last date of registration - 04-10-21</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
         </div>
         </div>
         <div class="block">
@@ -117,7 +117,7 @@
       </div>
       </div>
       <div class="carousel-item">
-        <img  src="./images/blogs.png" alt="events" class="d-block" style="width:100%" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        <img  src="./images/blogs.png" alt="events" class="d-block" style="width:100%" data-bs-toggle="modal" data-bs-target="#exampleModal2" onclick="changeCarouselInterval()">
         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -148,7 +148,7 @@
       </div>
       </div>
       <div class="carousel-item">
-        <img  src="./images/blogs.png" alt="events" class="d-block" style="width:100%" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+        <img  src="./images/blogs.png" alt="events" class="d-block" style="width:100%" data-bs-toggle="modal" data-bs-target="#exampleModal3" onclick="changeCarouselInterval()">
         <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -535,7 +535,10 @@
       element.classList.toggle(id+"_0");
     }
 
-
+    function changeCarouselInterval(){
+      var carousel = document.getElementById("demo");
+      carousel.setAttribute("data-bs-interval","false")
+    }
 
     const toggle = document.querySelector(".toggle-icon");
     const box = document.querySelector(".box");
