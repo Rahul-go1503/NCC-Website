@@ -112,9 +112,9 @@
     </div>
     <!-- Bigger Blog End -->
     <!-- Blogs List Start -->
-    <div class="text-center mt-3 mb-2 arrow" style="font-size: 2em;">
+    <!-- <div class="text-center mt-3 mb-2 arrow" style="font-size: 2em;">
         <i class="fa fa-chevron-up" onclick=upClick()></i>
-    </div>
+    </div> -->
     <div id="list" class="container d-flex flex-wrap p-0 justify-content-evenly blogList">
         <div class="p-2 blogBox">
             <div class="ncc-bg-blue blogBig">
@@ -351,9 +351,9 @@
             </div>
         </div>
     </div>
-    <div class="text-center m-2 arrow" style="font-size: 2em;">
+    <!-- <div class="text-center m-2 arrow" style="font-size: 2em;">
         <i class="fa fa-chevron-down" onclick=downClick()></i>
-    </div>
+    </div> -->
     <!-- Blogs List End -->
     <!-- All Blog Ends -->
 
@@ -541,7 +541,14 @@
       }else icon.classList.replace("fa-minus","fa-plus");
       element.classList.toggle(id+"_0");
     }
- 
+    
+        var list = document.getElementById("list")
+        const downClick = () => {
+            list.scrollBy(0,  list.children[0].clientHeight)
+        }
+        const upClick = () => {
+            list.scrollBy(0, -list.children[0].clientHeight)
+        }
     
         const toggle = document.querySelector(".toggle-icon");
         const box = document.querySelector(".box");
