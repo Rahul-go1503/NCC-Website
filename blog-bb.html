@@ -238,7 +238,7 @@
 
     <!----Recommendations end---->
 
-    <!-- Footer Starts -->
+  <!-- Footer Starts -->
   <div class="ncc-bg-blue ncc-white">
     <div class="row mx-0 ">
 
@@ -275,11 +275,11 @@
           </span>
           <div class="d-flex align-items-center justify-content-between pt-4">
             <a target="_blank" id="logo1" href="https://www.facebook.com/ncc.iitr"><img
-                src="images/svgs/facebookIcon.svg" class="mx-2" /></a>
+                src="images/svgs/facebookIcon.svg" class="me-2" /></a>
             <a target="_blank" id="logo2" href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA"><img
-                src="images/svgs/youtubeIcon.svg" class="mx-2" /></a>
+                src="images/svgs/youtubeIcon.svg" class="me-2" /></a>
             <a target="_blank" id="logo3" href="https://www.instagram.com/ncc.iitr/"><img
-                src="images/svgs/instagram.png" class="mx-2" width="44px" height="44px" /></a>
+                src="images/svgs/instagram.png" class="me-2" width="44px" height="44px" /></a>
           </div>
         </div>
         <div class="d-flex flex-column text-left ele  px-2ment iit px-lg-4">
@@ -288,7 +288,7 @@
           </span>
           <div class="d-flex align-items-center pt-2">
             <!-- <img src="images/svgs/websiteIcon.svg" /> -->
-            <div class="px-3">
+            <div>
               <a href="https://indiancc.nic.in/" target="_blank" id="content" class="text-decoration-none text-white">
                 NCC Official
             </a>
@@ -296,7 +296,7 @@
           </div>
           <div class="d-flex align-items-center pt-2">
             <!-- <img src="images/svgs/websiteIcon.svg" /> -->
-            <div class="px-3">
+            <div>
               <a href="https://www.iitr.ac.in/" target="_blank" id="content" class="m-0 pb-1">
                 IIT Roorkee
               </a>
@@ -328,7 +328,7 @@
             <div class="pb-1">
               Contact Us:
             </div>
-            <i class="fa fa-plus" onclick="footer('contact_content')"></i>
+            <i class="fa fa-plus" onclick="footer('contact_content',this)"></i>
           </div>
           <div id="contact_content">
             <div class="d-flex align-items-center pt-3">
@@ -357,7 +357,7 @@
             <div class="pb-1">
               Address:
             </div>
-            <i class="fa fa-plus" onclick="footer('address_content')"></i>
+            <i class="fa fa-plus" onclick="footer('address_content',this)"></i>
           </div>
           <div id="address_content">
             <div class="d-flex align-items-center pt-3">
@@ -372,7 +372,7 @@
             <div class="pb-1">
               Webiste:
             </div>
-            <i class="fa fa-plus" onclick="footer('website_content')"></i>
+            <i class="fa fa-plus" onclick="footer('website_content',this)"></i>
           </div>
           <div id="website_content">
             <div class="d-flex align-items-center pt-3">
@@ -414,14 +414,15 @@
 
     <script>
 
-        const footer = (id) => {
-          if (document.getElementById(id).style.display == "block") {
-            document.getElementById(id).style.display = "none"
-          }
-          else {
-            document.getElementById(id).style.display = "block"
-          }
-        };
+      const footer = (id,icon) => {
+      var element = document.getElementById(id);
+      
+      if(icon.classList.contains("fa-plus")){
+        icon.classList.replace("fa-plus","fa-minus");
+      }else icon.classList.replace("fa-minus","fa-plus");
+      element.classList.toggle(id+"_0");
+    }
+
     
     
         const toggle = document.querySelector(".toggle-icon");
