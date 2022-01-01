@@ -7,10 +7,17 @@
 .about-images > img {
   width: 250px;
 }
+
+
 .ncc-about {
   text-align: justify;
   font-size: 18px;
 }
+.ncc-about .dots,.ncc-about .read-more{
+  display: none;
+}
+
+
 .about-heading2 {
   width: 100%;
   text-align: center;
@@ -363,6 +370,7 @@
   }
 }
 @media only screen and (max-width: 360px){
+
   .section-1 .item {
     width: 100%;
     margin: 8px 0px;
@@ -385,4 +393,22 @@
   .section-2 .contact{
     font-size: 14px;
   }
+}
+/* ------READ MORE------- */
+@media only screen and (max-width: 760px ){
+  .long{
+    display: none;
+  }
+   .ncc-about{
+    overflow: hidden;
+    }
+    .ncc-about .dots{
+      display: initial;
+    }
+    .ncc-about .read-more{
+      font-size: 20px;
+      color: #053d4d ;
+      display: initial;
+    }
+  
 }
