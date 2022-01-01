@@ -116,11 +116,40 @@ a#logo3:hover > img {
   font-weight: 600 !important;
   font-size: 1.5em;
 }
-
+.navLinks{
+  padding: 0;
+}
+.NCC-Logo ,.IITR-Logo{
+  /* padding: 0; */
+  width: auto;
+  display: inline-block;
+}
+.NCC-Logo{
+  padding-right: 20px;
+}
+.IITR-Logo{
+  position: absolute;
+  right: 12px;
+  padding: 0;
+}
+.NCC-Logo a ,.IITR-Logo a{
+  display: inline-block;
+}
+.toggle-icon{
+  position: absolute;
+  right: 0;
+  width: auto;
+}
 /* -----NAVBAR Responsiveness------ */
 @media only screen and (max-width: 992px) {
   .navbar-nav {
     flex-direction: row;
+  }
+  .NCC-Logo{
+    padding: 0 0 0 12px;
+  }
+  .IITR-Logo{
+    padding: 0;
   }
   .NCC-Logo img {
     margin: 16px 0px 16px 12px;
@@ -134,7 +163,11 @@ a#logo3:hover > img {
     height: 40px;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 770px) {
+  .IITR-Logo{
+    position: static;
+    padding-left: 5px;
+  }
   #ncc-heading {
     display: none;
   }
@@ -146,7 +179,7 @@ a#logo3:hover > img {
     background: rgba(22, 25, 130, 0.969);
   }
   .toggle-icon {
-    display: block !important;
+    display: inline-block !important;
   }
   .navbar-nav {
     flex-direction: column;
@@ -156,7 +189,7 @@ a#logo3:hover > img {
     height: 65px;
   }
   .IITR-Logo img {
-    margin: 16px 0px 0px 20px;
+    margin: 16px 0px 0px 0px;
     height: 60px;
   }
   .hamburger-box {
@@ -170,7 +203,7 @@ a#logo3:hover > img {
     height: 60px;
   }
   .IITR-Logo img {
-    margin: 8px 0px 0px 30px;
+    margin: 8px 0px 0px 0px;
     height: 55px;
   }
   .hamburger-box {
