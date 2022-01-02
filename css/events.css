@@ -1,6 +1,21 @@
 body {
   background-color: #f3f9ff;
 }
+.carousel-indicators{
+  background: transparent;
+}
+.carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.carousel-indicators button{
+  background-color: #053d4d !important;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
 .block {
   box-sizing: border-box;
   margin: 0px;
