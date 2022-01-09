@@ -2,6 +2,7 @@
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 30%);
 }
 .blogTitle {
+  border-radius: 0.5rem;
   word-wrap: normal;
 }
 .blogBig {
@@ -58,6 +59,7 @@
   flex-direction: row !important;
 }
 .blogTitleSmall {
+  border-radius: 0.5em;
   word-wrap: normal;
 }
 .blogList {
