@@ -24,9 +24,9 @@
 }
 .recom{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  margin-left: 8%;
+  margin-right: 10%;
+  
 }
 
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
