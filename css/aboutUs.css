@@ -8,15 +8,14 @@
   width: 250px;
 }
 
-
 .ncc-about {
   text-align: justify;
   font-size: 18px;
 }
-.ncc-about .dots,.ncc-about .read-more{
+.ncc-about .dots,
+.ncc-about .read-more {
   display: none;
 }
-
 
 .about-heading2 {
   width: 100%;
@@ -111,7 +110,7 @@
   .about-images > img {
     width: 210px;
   }
-  
+
   .carousel-control-prev > i,
   .carousel-control-next > i {
     font-size: 1.8rem;
@@ -164,56 +163,55 @@
   }
 }
 
-
 /* Officers section */
-.ncc-bg-cadet{
-  background: #053D4D;
+.ncc-bg-cadet {
+  background: #053d4d;
   /* text-align: center; */
 }
-.ncc-div-fs{
+.ncc-div-fs {
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
-.cadets{
+.cadets {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.cadets .row .col img{
+.cadets .row .col img {
   width: 240px;
   height: 230px;
 }
-.cadets .row .col div{
+.cadets .row .col div {
   width: 240px;
 }
-.teams .row .col img{
+.teams .row .col img {
   width: 240px;
   height: 230px;
 }
-.teams .row .col div{
+.teams .row .col div {
   width: 240px;
 }
 
-@media only screen and (min-width:1000px){
-  .row1{
-    margin:0px 158px;
+@media only screen and (min-width: 1000px) {
+  .row1 {
+    margin: 0px 158px;
   }
-  .row2{
-    margin:0px -90px;
+  .row2 {
+    margin: 0px -90px;
   }
 }
-@media only screen and (max-width:768px){
-  .cadets .row .col img{
+@media only screen and (max-width: 768px) {
+  .cadets .row .col img {
     width: 261px;
     height: 230px;
   }
-  .cadets .row .col div{
+  .cadets .row .col div {
     width: 261px;
   }
-  .teams .row .col img{
+  .teams .row .col img {
     width: 261px;
     height: 230px;
   }
-  .teams .row .col div{
+  .teams .row .col div {
     width: 261px;
   }
 }
@@ -257,8 +255,15 @@
   margin: 40px 0;
   flex-wrap: wrap;
 }
+.section-1 .item{
+  min-width: 400px;
+}
+.alumni .section-1 .item,
+.alumni .section-2 .item {
+  min-width: 400px;
+}
 .section-1 p,
-.section-2 p{
+.section-2 p {
   margin-bottom: 4px;
 }
 .section-1 .item {
@@ -277,6 +282,14 @@
   margin: 8px 0px;
   border-radius: 10px;
 }
+.alumni .section-2 .item {
+  text-align: center;
+  background-color: white;
+  border: 3px solid #222588;
+  border-radius: 10px;
+  margin: 8px 0px;
+  padding: 10px;
+}
 .section-1 .name {
   font-family: Raleway;
   font-size: 24px;
@@ -285,8 +298,19 @@
   line-height: 28px;
   letter-spacing: 0em;
 }
+.alumni .section-2 .name {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.section-2 .name {
+  font-weight: 600;
+}
 .section-1 .designation {
-  font-size: 20px;
+  font-size: 16px;
 }
 .section-1 .contact {
   font-family: Lato;
@@ -296,12 +320,19 @@
   line-height: 23px;
   letter-spacing: 0em;
 }
-.contact:hover{
+.contact:hover {
   color: blue;
+}
+.contact a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px 0;
+  color: #000000;
+  text-decoration: none;
 }
 @media only screen and (max-width: 1024px) {
   .heading {
-    font-size:35px;
+    font-size: 35px;
     line-height: 35px;
   }
   .line {
@@ -319,7 +350,7 @@
   .section-1 .designation {
     font-size: 16px;
   }
-  .section-1 .contact{
+  .section-1 .contact {
     font-size: 18px;
   }
 }
@@ -333,7 +364,7 @@
     font-size: 38px;
     line-height: 40px;
   }
-  
+
   .line {
     width: 20%;
     height: 4px;
@@ -347,16 +378,29 @@
     width: 80%;
     margin: 8px 0px;
   }
+  .alumni .section-2 .item {
+    width: 80%;
+    margin: 8px 0px;
+  }
   .section-2 .item {
     margin: 8px auto;
   }
   .section-1 .name {
     font-size: 20px;
   }
+  .alumni .section-2 .name {
+    font-size: 20px;
+  }
   .section-1 .designation {
     font-size: 16px;
   }
-  .section-1 .contact{
+  .alumni .section-2 .designation {
+    font-size: 16px;
+  }
+  .section-1 .contact {
+    font-size: 18px;
+  }
+  .alumni .section-2 .contact {
     font-size: 18px;
   }
   .section-2 .name {
@@ -365,15 +409,30 @@
   .section-2 .designation {
     font-size: 12px;
   }
-  .section-2 .contact{
+  .section-2 .contact {
     font-size: 14px;
   }
   .tab-content {
     display: none;
   }
 }
-@media only screen and (max-width: 360px){
-
+@media only screen and (max-width: 520px) {
+  .section-1 .item{
+    min-width: 300px;
+  }
+  .alumni .section-1 .item,
+  .alumni .section-2 .item {
+    min-width: 300px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .section-1 .item{
+    min-width: 100px;
+  }
+  .alumni .section-1 .item,
+  .alumni .section-2 .item {
+    min-width: 100px;
+  }
   .section-1 .item {
     width: 100%;
     margin: 8px 0px;
@@ -384,7 +443,7 @@
   .section-1 .designation {
     font-size: 12px;
   }
-  .section-1 .contact{
+  .section-1 .contact {
     font-size: 14px;
   }
   .section-2 .name {
@@ -393,25 +452,24 @@
   .section-2 .designation {
     font-size: 12px;
   }
-  .section-2 .contact{
+  .section-2 .contact {
     font-size: 14px;
   }
 }
 /* ------READ MORE------- */
-@media only screen and (max-width: 760px ){
-  .long{
+@media only screen and (max-width: 760px) {
+  .long {
     display: none;
   }
-   .ncc-about{
+  .ncc-about {
     overflow: hidden;
-    }
-    .ncc-about .dots{
-      display: initial;
-    }
-    .ncc-about .read-more{
-      font-size: 20px;
-      color: #053d4d ;
-      display: initial;
-    }
-  
+  }
+  .ncc-about .dots {
+    display: initial;
+  }
+  .ncc-about .read-more {
+    font-size: 20px;
+    color: #053d4d;
+    display: initial;
+  }
 }
