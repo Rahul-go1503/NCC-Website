@@ -317,6 +317,9 @@ body {
   }
 }
 @media only screen and (max-width: 720px){
+  .carousel-control-prev,.carousel-control-next{
+    display: none;
+  }
   .carousel-container .card-container {
     width: 50%;
   }
