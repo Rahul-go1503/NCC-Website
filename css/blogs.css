@@ -28,6 +28,9 @@
   margin-right: 10%;
   
 }
+.track{
+  justify-content: space-around;
+}
 
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 .carousel-container {
