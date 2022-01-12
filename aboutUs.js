@@ -1,9 +1,12 @@
 const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 const removeBg1 = document.querySelector("#pills-ADMINISTRATION-tab");
 const removeBg2 = document.querySelector("#pills-2020-2021-tab");
+const removeIndic = document.querySelector('#activityCarousel2 .carousel-indicators')
+console.log(removeIndic);
 var i = 1;
 var id_2T ;
 if(vw<="760"){
+    removeIndic.style.display="none";
     removeBg1.classList.remove("active");
     removeBg2.classList.remove("active");
 }
