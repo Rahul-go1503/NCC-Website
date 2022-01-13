@@ -17,6 +17,10 @@ body {
   width: 15px;
   border-radius: 50%;
 }
+.d-block{
+  width:90%;
+  height: 500px; 
+}
 .block {
   box-sizing: border-box;
   margin: 0px;
@@ -137,6 +141,11 @@ body {
     height: 3px;
   }
 }
+@media(min-width:760px){
+  .d-block{
+  padding-left: 10%;
+  }
+}
 @media (max-width: 760px){
   #date {
     margin-top: 5px;
@@ -175,6 +184,12 @@ body {
     width: 20%;
     height: 4px;
   }
+  .d-block{
+    padding-left: 50px;
+    width: 90%;
+    height: 300px;
+        
+  }
 }
 @media (max-width: 560px){
   .block {
@@ -188,6 +203,11 @@ body {
     background-color: #222588;
     border-radius: 25px;
     width: 70%;
+  }
+  .d-block{
+    padding-right: 50px;
+    width:100%;
+    height: auto;   
   }
   #date {
     margin: 0%;
