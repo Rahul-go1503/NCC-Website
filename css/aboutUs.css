@@ -8,15 +8,6 @@
   width: 250px;
 }
 
-.ncc-about {
-  text-align: justify;
-  font-size: 18px;
-}
-.ncc-about .dots,
-.ncc-about .read-more {
-  display: none;
-}
-
 .about-heading2 {
   width: 100%;
   text-align: center;
@@ -163,6 +154,14 @@
   }
 }
 
+.ncc-about {
+  text-align: justify;
+  font-size: 18px;
+}
+.ncc-about .dots,
+.ncc-about .read-more {
+  display: none;
+}
 /* Officers section */
 .ncc-bg-cadet {
   background: #053d4d;
