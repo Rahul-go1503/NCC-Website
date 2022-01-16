@@ -20,13 +20,6 @@
   transition: all 0.5s ease;
   z-index: 3;
 }
-#closebtn{
-  display: none;
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 90px;
-  color: red;
-}
 .heading-ncc {
   font-size: 25px;
   margin-bottom: 0.5rem;
@@ -189,9 +182,6 @@ a#logo3:hover > img {
   .toggle-icon {
     display: inline-block !important;
   }
-  #closebtn{
-    display: block;
-  }
   .navbar-nav {
     flex-direction: column;
   }
@@ -213,7 +203,8 @@ a#logo3:hover > img {
   .navLinks li a:active,.navLinks li a:hover,
   .navLinks li a.active{
     border-bottom-color: transparent;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
     color: #ff001e !important;
   }
 }
