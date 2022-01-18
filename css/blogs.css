@@ -122,4 +122,7 @@
   .carousel-container .card-container {
     width: 100%;
   }
+  .text{
+    font-size: 16px;
+  }
 }
