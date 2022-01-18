@@ -202,7 +202,7 @@ a#logo3:hover > img {
   }
   .navLinks li a:active,.navLinks li a:hover,
   .navLinks li a.active{
-    border-bottom-color: transparent;
+    border-bottom : 0;
     font-size: 25px;
     font-weight: bold;
     color: #ff001e !important;
