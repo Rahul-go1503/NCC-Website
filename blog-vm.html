@@ -12,6 +12,7 @@
   <!-- ----hamburgers.min.css--- -->
   <link rel="stylesheet" href="./css/hamburgers.min.css">
         <!-- Custom CSS Link  -->
+    <link rel="stylesheet" href="./css/allBlog.css">
     <link rel="stylesheet" href="./css/blogs.css">
     <link rel="stylesheet" href="./css/globalStyle.css">
     <link rel="stylesheet" href="./css/nav&footer.css">
@@ -127,47 +128,46 @@
 
     <!--Recommendations start-->
 
-    <div class="recom">
-        <h2
-            style="font-size: 40px; text-align: center; margin-left: auto; margin-right: auto;  margin-top: 2%; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-            Recommended Blogs</h2>
-
-        <div class="carousel-container">
-            <div class="carousel-inner">
-                <div class="track">
-                    <div class="card-container">
-                        <div class="card">
-                            <div class="img"><a href="./blog-aj.html"><img src="./images/ajBlog.png" alt=""
-                                        style="width: 100%;"></a></div>
-                            <div class="info">
-                                By: Abhishek Jha
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-container">
-                        <div class="card">
-                            <div class="img"><a href="./blog-ca.html"><img src="./images/caBlog.png" alt=""
-                                        style="width: 100%;"></a></div>
-                            <div class="info">
-                                By: Chayan Ailawalia
-                            </div>
-                        </div>
-                    </div>
-                    
+    <h2 style="font-size: 40px;text-align: center; margin-left: auto; margin-right: auto; margin-top: 2%; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Recommended Blogs</h2>
+    <div id="list" class="container d-flex flex-wrap p-0 justify-content-evenly blogList">
+      <div class="p-2 blogBox">
+        <div class="ncc-bg-blue blogBig">
+            <a href="./blog-ca.html">
+            <div class="blogImg">
+                <img src="./images/caBlog.png" class="blogImg-mobile mobileSmall">
+                <div class="ncc-white authorSmall" style="background-image: url(./images/caBlog.png);">
+                    <span class="details m-2 px-2">
+                        <p>By: <span>Chayan Ailawalia</span></p>
+                    </span>
                 </div>
             </div>
-            <!-- <div class="nav">
-                <button class="prev">
-                    <i class="fa fa-chevron-left"></i>
-                </button>
-                <button class="next">
-                    <i class="fa fa-chevron-right"></i>
-                </button>
-            </div> -->
+            <div class="ncc-bg-blue px-3 pt-2 pb-4 ncc-white blogTitleSmall">
+                <span>The Silent Pillars of Indian Army</span>
+                <p class="by">By: <span>Chayan Ailawalia</span></p>
+            </div>
+            </a>
         </div>
-
-        <!-- <script src="./blogs.js"></script> -->
     </div>
+      <div class="p-2 blogBox">
+        <div class="ncc-bg-blue blogBig">
+            <a href="./blog-aj.html">
+            <div class="blogImg">
+                <img src="./images/ajBlog.png" class="blogImg-mobile mobileSmall">
+                <div class="ncc-white authorSmall" style="background-image: url(./images/ajBlog.png);">
+                    <span class="details m-2 px-2">
+                        <p>By: <span>Abhishek Jha</span></p>
+                    </span>
+                </div>
+            </div>
+            <div class="ncc-bg-blue px-3 pt-2 pb-4 ncc-white blogTitleSmall">
+                <span>NCC IITR in Pre-Pandemic Days</span>
+                <p class="by">By: <span>Abhishek Jha</span></p>
+            </div>
+            </a>
+        </div>
+    </div>
+      
+  </div>
 
     <!----Recommendations end---->
 
