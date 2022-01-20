@@ -71,6 +71,19 @@
 .aboutheading2 {
   display: none;
 }
+#activityCarousel2 .carousel-item{
+  max-height: 580px;
+  overflow: auto;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#activityCarousel2 .carousel-item::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+#activityCarousel2 .carousel-item {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 #nccImageCarousel > .carousel-indicators [data-bs-target] {
   background-color: white;
 }

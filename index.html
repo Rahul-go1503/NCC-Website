@@ -1,4 +1,3 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NCC-IITR</title>
+  <!-- ----Favicon----- -->
   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -29,8 +29,9 @@
   <link rel="stylesheet" href="./css/home.css">
 </head>
 
-<body>
-
+<body onload="load()">
+  <div id="loading">
+  </div>  
   <!-- -----------NavBar Start---------- -->
   <div class="sticky-top">
     <div class="container-fluid navBar">
@@ -332,31 +333,11 @@
   </p>
 
   <!-- Footer Ends -->
-
-  <script>
-
-    const footer = (id, icon) => {
-      var element = document.getElementById(id);
-
-      if (icon.classList.contains("fa-plus")) {
-        icon.classList.replace("fa-plus", "fa-minus");
-      } else icon.classList.replace("fa-minus", "fa-plus");
-      element.classList.toggle(id + "_0");
-    }
-
-    const toggle = document.querySelector(".toggle-icon");
-    const box = document.querySelector(".box");
-    const trigg = document.querySelector(".hamburger");
-    toggle.onclick = (e) => {
-      trigg.classList.toggle("is-active");
-      box.classList.toggle("collapsed");
-    };
-
-
-  </script> <!-- Bootstrap Js link  -->
+  <!-- ---Bootstrap Js link---  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+  </script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
