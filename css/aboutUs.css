@@ -23,7 +23,7 @@
 .activity {
   border-radius: 10px;
   background-color: #dee8f6;
-  margin: 1rem auto;
+  margin: 1rem auto 4rem;
 }
 
 .activity > img {
@@ -48,6 +48,23 @@
 }
 .carousel-indicators [data-bs-target] {
   background-color: black;
+}
+#activityCarousel .carousel-indicators{
+  bottom: -25px;
+  background: transparent;
+}
+#activityCarousel .carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #1C77C3;
+}
+#activityCarousel .carousel-indicators button{
+  background-color:#1C77C3 !important;
+  height: 10px;
+  width: 75px;
+  border: 1px solid #1C77C3;
 }
 .carousel-control-prev > i,
 .carousel-control-next > i {
@@ -186,6 +203,7 @@
   font-family: "Open Sans", sans-serif !important;
 }
 .cadets {
+  background: linear-gradient(180deg, #DEE7F5 91.15%, #F3F9FF 100%);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -338,7 +356,7 @@
 }
 .contact a {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px 0;
   color: #000000;
   text-decoration: none;
