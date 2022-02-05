@@ -5,13 +5,13 @@ body{
   padding-right: 2em;
   width: 100%;
   padding-top: 10px;
-  background: linear-gradient(180deg, #d3dff1 82.81%, #fff 100%);
+  /* background: linear-gradient(180deg, #d3dff1 82.81%, #fff 100%); */
   background: #d3dff1;
 }
 .Pledge {
   padding-right: 2em;
   width: 100%;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 40px;
   background: #fff;
 }
