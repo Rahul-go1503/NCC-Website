@@ -6,6 +6,7 @@ body{
   width: 100%;
   padding-top: 10px;
   background: linear-gradient(180deg, #d3dff1 82.81%, #fff 100%);
+  background: #d3dff1;
 }
 .Pledge {
   padding-right: 2em;
@@ -45,6 +46,18 @@ body{
   align-items: center;
 }
 
+
+.ncc-song{
+  background: linear-gradient(180deg,#fff 0%, #d3dff1 82.81%, #fff 100%);
+  margin: 15px 0;
+}
+.play_ncc_song a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(33, 36, 135, 0.95);
+  font-size: 20px;
+  
+}
 .aim-pledge-heading {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
