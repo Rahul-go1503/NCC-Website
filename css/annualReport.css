@@ -10,7 +10,7 @@
 
 .reports{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 20px;
@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../images/DSCN1414_edited-7.jpg) no-repeat;
   height: 300px;
   width: 25%;
   background-color: #dee8f6;
@@ -37,7 +36,7 @@
 .Report-box a {
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: #212588;
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
