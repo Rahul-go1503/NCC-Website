@@ -20,7 +20,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
   width: 25%;
   background-color: #dee8f6;
   margin: 30px;
@@ -35,6 +34,7 @@
   cursor: pointer;
 }
 .Report-box a {
+  display: block;
   text-decoration: none;
   text-align: center;
   color: #212588;
@@ -42,9 +42,12 @@
   line-height: 24px;
   font-weight: 500;
 }
+.Report-box a img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
 @media only screen and (max-width: 900px){
   .Report-box{
-    height: 150px;
     width: 30%;
   }
 }
@@ -58,7 +61,6 @@
     flex-direction: column;
   }
   .Report-box{
-    height: 150px;
     width: 80%;
   }
 }

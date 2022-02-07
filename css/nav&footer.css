@@ -37,6 +37,9 @@
   align-items: center;
   justify-items: center;
 }
+.navbar_shrink .navItem{
+  display: none;
+}
 nav{
   transition: all 0.5s ease;
 }
@@ -86,6 +89,10 @@ nav{
 }
 .hide{
   display: none !important;
+}
+#ncc-heading{
+  transition: all 0.5s ease;
+
 }
 #title_footer {
   font-size: 1.2rem;
