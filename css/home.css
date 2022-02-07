@@ -1,20 +1,20 @@
-body{
-    background-color: transparent;
+body {
+  background-color: transparent;
 }
 .Our_AIM {
   padding-right: 2em;
   width: 100%;
   padding-top: 10px;
-  background: linear-gradient(180deg, #d3dff1 82.81%, #fff 100%);
+  background: linear-gradient(180deg, #d3dff1 82.81%, #f3f9ff 100%);
   /* background: #d3dff1; */
 }
 .Pledge {
   padding-right: 2em;
   width: 100%;
-  padding-top: 40PX;
+  padding-top: 40px;
   /* margin-top: 10px; */
   /* margin-bottom: 40px; */
-  background: #F3F9FF;
+  background: #f3f9ff;
 }
 .aim {
   width: 50%;
@@ -42,19 +42,19 @@ body{
   border-radius: 12px;
   border-radius: 12px;
 }
-.ncc-song{
-  padding-top: 40PX;
-  background: linear-gradient(0deg, #D3DFF1 82.81%, #F3F9FF 100%);
+.ncc-song {
+  padding-top: 40px;
+  background: linear-gradient(0deg, #d3dff1 82.81%, #f3f9ff 100%);
   margin-bottom: 0;
 }
 .flex-container {
   display: flex;
   align-items: center;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@700&display=swap');
 .aim-pledge-heading {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Raleway', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.2em;
@@ -64,11 +64,10 @@ body{
 .pics {
   margin-top: 20px;
   margin-left: 0px;
-  width:550px;
- 
+  width: 550px;
 }
 .text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-size: 100%;
   line-height: 26px;
@@ -76,12 +75,17 @@ body{
   text-align: justify;
   color: #1b1b1b;
 }
-.reference{
+.song_text {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: "Lato", sans-serif;
+}
+.reference {
   text-align: end;
   font-size: xx-small;
   margin: 0px;
 }
-.reference p{
+.reference p {
   margin-bottom: 0;
 }
 @media (max-width: 970px) {
@@ -110,7 +114,7 @@ body{
     border-radius: 12px;
     border-radius: 12px;
   }
-  ul{
+  ul {
     margin-right: 25px;
   }
   .pldge {
