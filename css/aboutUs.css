@@ -272,6 +272,7 @@
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .show > .nav-link {
+  border-radius: 10px;
   color: white;
   background-color: #053d4d;
 }
@@ -322,7 +323,6 @@
   padding: 10px;
 }
 .section-1 .name {
-  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -330,7 +330,6 @@
   letter-spacing: 0em;
 }
 .alumni .section-2 .name {
-  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
