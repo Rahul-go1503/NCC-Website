@@ -18,8 +18,9 @@ body {
   border-radius: 50%;
 }
 .d-block{
-  width:90%;
-  height: 500px; 
+  margin-left: 20%;
+  width:50%;
+  /* height: 500px;  */
 }
 .block {
   box-sizing: border-box;
