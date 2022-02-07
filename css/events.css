@@ -18,9 +18,9 @@ body {
   border-radius: 50%;
 }
 .d-block{
-  margin-left: 20%;
-  width:50%;
-  /* height: 500px;  */
+  margin: auto;
+  width:35%;
+  border-radius: 10px;
 }
 .block {
   box-sizing: border-box;
@@ -142,11 +142,6 @@ body {
     height: 3px;
   }
 }
-@media(min-width:760px){
-  .d-block{
-  padding-left: 10%;
-  }
-}
 @media (max-width: 760px){
   #date {
     margin-top: 5px;
@@ -186,9 +181,7 @@ body {
     height: 4px;
   }
   .d-block{
-    padding-left: 50px;
-    width: 90%;
-    height: 300px;
+    width: 50%;
         
   }
 }
@@ -206,9 +199,7 @@ body {
     width: 70%;
   }
   .d-block{
-    padding-right: 50px;
-    width:100%;
-    height: auto;   
+    width:60%;
   }
   #date {
     margin: 0%;
