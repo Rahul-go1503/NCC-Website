@@ -16,7 +16,7 @@ toggle.onclick = (e) => {
 const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 if(vw>="760"){
   window.onscroll = ()=> {
-    if (document.body.scrollTop > 93 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
       document.getElementById("ncc-heading").style.display = "none";
       document.getElementById("NCC-Logo").classList.add("ncc_shrink");
       document.getElementById("IITR-Logo").classList.add("iitr_shrink");

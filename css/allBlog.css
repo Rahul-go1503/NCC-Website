@@ -1,3 +1,26 @@
+.heading {
+  text-transform: uppercase;
+  margin: 48px 0 48px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .heading {
+    margin: 40px 0 40px 0;
+    font-size: 28px;
+    line-height: 37px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .heading {
+    margin: 30px 0 30px 0;
+    font-size: 23px;
+    line-height: 27px;
+  }
+}
 .blogBig:hover {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 30%);
 }
@@ -66,8 +89,7 @@
   word-wrap: normal;
 }
 .blogList {
-  /* height: 485px; */
-  margin-bottom: 20px;
+  margin: 70px auto;
   overflow-y: auto;
 }
 .blogList::-webkit-scrollbar {
