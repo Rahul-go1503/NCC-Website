@@ -246,8 +246,7 @@ a#logo3:hover > img {
   .navLinks li a.active {
     border-bottom: 0;
     font-size: 25px;
-    font-weight: bold;
-    color: #ff001e !important;
+    font-weight: 700;
   }
 }
 @media only screen and (max-width: 470px) {
