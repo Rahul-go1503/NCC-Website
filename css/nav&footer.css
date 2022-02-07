@@ -37,6 +37,9 @@
   align-items: center;
   justify-items: center;
 }
+nav{
+  transition: all 0.5s ease;
+}
 .navbar_shrink nav{
   width: 80%;
 }

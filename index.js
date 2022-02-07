@@ -14,8 +14,8 @@ toggle.onclick = (e) => {
 
 // Menu shrink Js
 const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-if(vw>="760"){
-  window.onscroll = ()=> {
+if (vw >= "760") {
+  window.onscroll = () => {
     if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
       document.getElementById("ncc-heading").style.display = "none";
       document.getElementById("NCC-Logo").classList.add("ncc_shrink");
@@ -28,14 +28,9 @@ if(vw>="760"){
       document.getElementById("navbar_links").classList.remove("navbar_shrink");
     }
   }
-}else{
+} else {
   document.getElementById("navbar_links").classList.add("hide");
-  // document.getElementById("ncc-heading-mb").classList.remove("hide");
   document.getElementById("nav-mb").classList.remove("hide");
-  // const navBar = document.querySelector(".navBar");
-    //  var navLinks = document.getElementsByClassName("navLinks");
-    //  navBar.insertAdjacentElement("afterend", navLinks);
-    //  navLinks[0].remove();
 }
 // Footer JS
 const footer = (id, icon) => {
