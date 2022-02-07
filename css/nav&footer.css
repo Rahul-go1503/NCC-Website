@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .navBar {
   padding: 0px;
-  background: rgba(22, 25, 130, 0.949);
+  background: rgb(22, 25, 130);
   color: white;
 }
 #loading {
@@ -11,6 +11,9 @@
   position: fixed;
   background: #fff url(../images/svgs/Infinity-1s-100px.svg) no-repeat center; 
   z-index: 999;
+}
+#navbar_links{
+  height: 150px;
 }
 .NCC-Logo img {
   margin: 16px 0px 4px 16px;
@@ -35,7 +38,7 @@
   margin-bottom: 0;
 }
 .navLinks {
-  background: rgba(22, 25, 130, 0.949);
+  background: rgb(22, 25, 130);
   transition: 0.6s;
 }
 .navLinks li a {
