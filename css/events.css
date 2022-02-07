@@ -34,6 +34,9 @@ body {
   border-radius: 25px;
   width: 70%;
 }
+.modal-content{
+  border: 0;
+}
 #date {
   margin-top: 5px;
   padding-left: 5%;
