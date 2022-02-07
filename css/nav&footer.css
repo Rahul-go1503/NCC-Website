@@ -12,9 +12,6 @@
   background: #fff url(../images/svgs/Infinity-1s-100px.svg) no-repeat center; 
   z-index: 999;
 }
-#navbar_links{
-  /* height: 150px; */
-}
 .NCC-Logo img {
   margin: 16px 0px 4px 16px;
   height: 90px;
@@ -83,6 +80,9 @@
 .navLinks li a:active {
   border-bottom: white 2.5px solid;
   padding-bottom: 1.5px;
+}
+.hide{
+  display: none !important;
 }
 #title_footer {
   font-size: 1.2rem;
@@ -263,9 +263,9 @@ a#logo3:hover > img {
     height: 40px;
     margin-left: 0px;
   }
-  #carouselExampleIndicators > button {
+  /* #carouselExampleIndicators > button {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 760px) {
