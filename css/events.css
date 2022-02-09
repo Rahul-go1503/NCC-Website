@@ -317,6 +317,9 @@ body {
   align-items: center;
   font-size: 30px;
 }
+.img img{
+  height: 100%;
+}
 .card .info {
   flex-basis: 40px;
   background: #222588;

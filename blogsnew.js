@@ -3,7 +3,6 @@ const next = document.querySelector('.next');
 
 const track = document.querySelector('.track');
 let cards = document.querySelectorAll('.card-container');
-console.log(cards);
 let cardWidth = document.querySelector('.card-container').offsetWidth;
 
 let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
