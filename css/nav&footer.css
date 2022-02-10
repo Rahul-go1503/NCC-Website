@@ -96,6 +96,9 @@ nav{
   transition: all 0.5s ease;
 
 }
+#nav-mb{
+  display: none;
+}
 #title_footer {
   font-size: 1.2rem;
   border-bottom: 2px solid;
@@ -217,6 +220,9 @@ a#logo3:hover > img {
   }
 }
 @media only screen and (max-width: 760px) {
+  #nav-mb{
+    display: block;
+  }
   .IITR-Logo {
     position: static;
     padding-left: 5px;
@@ -242,7 +248,15 @@ a#logo3:hover > img {
     margin: 16px 0px 16px 16px;
     height: 65px;
   }
+  .NCC-Logo .ncc_shrink {
+    margin: 16px 0px 16px 16px;
+    height: 65px;
+  }
   .IITR-Logo img {
+    margin: 16px 0px 0px 0px;
+    height: 60px;
+  }
+  .IITR-Logo .iitr_shrink {
     margin: 16px 0px 0px 0px;
     height: 60px;
   }
@@ -266,7 +280,15 @@ a#logo3:hover > img {
     margin: 8px 0px 8px 8px;
     height: 60px;
   }
+  .NCC-Logo .ncc_shrink {
+    margin: 8px 0px 8px 8px;
+    height: 60px;
+  }
   .IITR-Logo img {
+    margin: 8px 0px 0px 0px;
+    height: 55px;
+  }
+  .IITR-Logo .iitr_shrink {
     margin: 8px 0px 0px 0px;
     height: 55px;
   }

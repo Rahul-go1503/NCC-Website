@@ -28,7 +28,7 @@ if (vw >"760") {
   }
 } else {
   document.getElementById("navbar_links").classList.add("hide");
-  document.getElementById("nav-mb").classList.remove("hide");
+  // document.getElementById("nav-mb").classList.remove("hide");
 }
 // Footer JS
 const footer = (id, icon) => {
