@@ -1,6 +1,6 @@
 const view_width = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 const removeBg1 = document.querySelector("#pills-ADMINISTRATION-tab");
-const removeBg2 = document.querySelector("#pills-2021-2022-tab");
+const removeBg2 = document.querySelector("#pills-2021-2022");
 const removeIndic = document.querySelector('#activityCarousel2 .carousel-indicators')
 console.log(removeIndic);
 var i = 1;
