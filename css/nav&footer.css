@@ -9,7 +9,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  background: #fff url(../images/svgs/Spinner-1s-200px.svg) no-repeat center; 
+  background: #fff url(../images/svgs/Infinity-1s-100px.svg) no-repeat center; 
   z-index: 999;
 }
 .NCC-Logo img {
@@ -142,13 +142,6 @@ a#logo3:hover > img {
     #285aeb 90%
   );
   border-radius: 50%;
-}
-.mapinfo {
-  display: block;
-  overflow: hidden;
-  border-radius: 2px;
-  transform: translateZ(0px);
-  border: 3px solid #eee;
 }
 .footer-copyright {
   margin-bottom: 0px;
@@ -320,16 +313,6 @@ a#logo3:hover > img {
     padding: 1rem;
     max-width: 100%;
   }
-  .map{
-    margin-bottom: 10%;
-  }
-  .mapinfo{
-    width: 100%;
-    height:120%;
-    padding: 5%;
-    border-style: none;
-
-  }
 }
 @media (max-width: 370px) {
   #footer_heading > h2 {
@@ -337,15 +320,5 @@ a#logo3:hover > img {
   }
   #footer_heading {
     padding: 0.5rem !important;
-  }
-  .map{
-    margin-bottom: 10%;
-  }
-  .mapinfo{
-    width: 100%;
-    height:120%;
-    padding: 5%;
-    border-style: none;
-
   }
 }
