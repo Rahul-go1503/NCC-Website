@@ -143,6 +143,10 @@ a#logo3:hover > img {
   );
   border-radius: 50%;
 }
+a#logo4:hover > img {
+  background-image: conic-gradient(#4285f4 0deg, #34a852 150deg, #fabb04 225deg, #ea4335 280deg, #1a73e8 350deg);
+  border-radius: 50%;
+}
 .footer-copyright {
   margin-bottom: 0px;
 }
